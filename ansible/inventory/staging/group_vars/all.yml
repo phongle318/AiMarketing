@@ -1,0 +1,11 @@
+---
+go_path: /home/phonglh/go
+supervisor_conf_dir: /etc/supervisor/conf.d
+supervisor_user: ubuntu
+aim_base_dir: /home/ubuntu/aimarket
+aim_port: 8050
+aim_program_name: AiMarketing
+aim_app_log_level: debug
+aim_bot_log_level: info
+
+# ansible-playbook -i inventory/staging deploy-bot.yml
